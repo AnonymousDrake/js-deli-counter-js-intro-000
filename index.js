@@ -18,7 +18,7 @@ else{
 }
 }
 
-var currentLine= katzDeliLine =>{
+/*var currentLine= katzDeliLine =>{
   var out = "The line is currently"
   if(katzDeliLine.length===0){
     return `${out} empty.`;
