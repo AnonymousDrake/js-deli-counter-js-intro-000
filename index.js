@@ -5,7 +5,7 @@ if(katzDeliLine.length===0){
 else{
    katzDeliLine.push(customerName);
  }
-   console.log(`Welcome, ${katzDeliLine[katzDeliLine.length-1]}. You are number ${katzDeliLine.length} in line.`);
+   return `Welcome, ${katzDeliLine[katzDeliLine.length-1]}. You are number ${katzDeliLine.length} in line.`;
 }
 
 var nowServing= katzDeliLine =>{
