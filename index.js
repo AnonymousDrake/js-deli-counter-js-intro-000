@@ -24,6 +24,6 @@ var currentLine= katzDeliLine =>{
   }
   else {
     window.print(`The line is currently: `);
-    
+
   }
 }
