@@ -20,7 +20,7 @@ else{
 var currentLine= katzDeliLine =>{
   if(katzDeliLine.length===0){
     console.log(`The line is currently empty.`);
-  } 
+  }
   else {
     console.log(`The line is currently: `)
     for(let i=0;i<katzDeliLine.length;i+=1){
