@@ -24,10 +24,9 @@ var currentLine= katzDeliLine =>{
     return `${out} empty.`;
   }
   else {
-    `${out}`;
-    for(let i=0;i<katzDeliLine.length;i+=1){
+    return ("The line is currently" + for(let i=0;i<katzDeliLine.length;i+=1){
       if(i===(katzDeliLine.length-1)) `${i+1}. ${katzDeliLine}.`
       else `${i+1}. ${katzDeliLine},`
-    }
+    })
   }
 }
