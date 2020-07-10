@@ -1,0 +1,21 @@
+var takeANumber = (katzDeliLine,customerName) =>{
+if(katzDeliLine.length===0)katzDeliLine[0]=customerName;
+else katzDeliLine.push(customerName);
+console.log(`Welcome, ${katzDeliLine[katzDeliLine.length]}. You are number ${katzDeliLine.length + 1} in line.`);
+}
+
+var nowServing= katzDeliLine =>{
+if(katzDeliLine.length=0){
+  console.log(`There is nobody waiting to be served!`);
+}
+else{
+  console.log(`Currently serving ${katzDeliLine[0]}`)
+}
+}
+var currentLine= katzDeliLine =>{
+   console.log(`The line is currently: `)
+   for(let i=1;i<=katzDeliLine.length;i+=1){
+     if(i===katzDeliLine.length-1)console.log(`${i}. ${katzDeliLine[i]}`)
+     else console.log(`${i}. ${katzDeliLine[i]},`)
+   }
+}
