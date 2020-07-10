@@ -28,7 +28,7 @@ var currentLine= katzDeliLine =>{
         return `${i+1}. ${katzDeliLine[i]}.`
       }
       else{
-        return (`${i+1}. ${katzDeliLine[i]},`)
+        return (`${i+1}. ${katzDeliLine[i]}, `)
       }
     }
 
