@@ -23,14 +23,6 @@ var currentLine= katzDeliLine =>{
     return `The line is currently empty.`;
   }
   else {
-    for(let i=0;i<katzDeliLine.length;i+=1){
-      if(i===(katzDeliLine.length - 1)){
-        return `${i+1}. ${katzDeliLine[i]}`
-      }
-      else{
-        `${i+1}. ${katzDeliLine[i]}, `
-      }
-    }
-
+    return `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
   }
 }
