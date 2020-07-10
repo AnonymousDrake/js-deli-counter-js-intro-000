@@ -29,7 +29,7 @@ var currentLine= katzDeliLine =>{
         str+=`${i+1}. ${katzDeliLine[i]}`
       }
       else{
-        str+=`${i+1}. ${katzDeliLine[i]},`
+        str+=`${i+1}. ${katzDeliLine[i]}, `
       }
     }
     return `The line is currently: 1. ${str}`
