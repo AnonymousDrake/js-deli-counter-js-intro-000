@@ -1,6 +1,6 @@
 var takeANumber = (katzDeliLine,customerName) =>{
-if{
-  (katzDeliLine.length===0)katzDeliLine[0]=customerName;
+if(katzDeliLine.length===0){
+  katzDeliLine[0]=customerName;
 }
 else{
    katzDeliLine.push(customerName);
