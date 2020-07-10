@@ -23,6 +23,6 @@ var currentLine= katzDeliLine =>{
     return `The line is currently empty.`;
   }
   else {
-    `The line is currently: `
+    console.log(`The line is currently: `);
   }
 }
