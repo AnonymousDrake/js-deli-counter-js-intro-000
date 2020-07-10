@@ -1,7 +1,11 @@
 var takeANumber = (katzDeliLine,customerName) =>{
-if(katzDeliLine.length===0)katzDeliLine[0]=customerName;
-else katzDeliLine.push(customerName);
-console.log(`Welcome, ${katzDeliLine[katzDeliLine.length-1]}. You are number ${katzDeliLine.length} in line.`);
+if{
+  (katzDeliLine.length===0)katzDeliLine[0]=customerName;
+}
+else{
+   katzDeliLine.push(customerName);
+ }
+   console.log(`Welcome, ${katzDeliLine[katzDeliLine.length-1]}. You are number ${katzDeliLine.length} in line.`);
 }
 
 var nowServing= katzDeliLine =>{
@@ -12,10 +16,20 @@ else{
   console.log(`Currently serving ${katzDeliLine[0]}`)
 }
 }
+
 var currentLine= katzDeliLine =>{
-   console.log(`The line is currently: `)
-   for(let i=1;i<=katzDeliLine.length;i+=1){
-     if(i===katzDeliLine.length-1)console.log(`${i}. ${katzDeliLine[i]}`)
-     else console.log(`${i}. ${katzDeliLine[i]},`)
-   }
+  if(katzDeliLine.length===0){
+    console.log(`The line is currently empty.`);
+  } 
+  else {
+    console.log(`The line is currently: `)
+    for(let i=0;i<katzDeliLine.length;i+=1){
+    if(i===katzDeliLine.length-1){
+      console.log(`${i+1}. ${katzDeliLine[i]}.`)
+    }
+    else {
+      console.log(`${i+1}. ${katzDeliLine[i]},`)
+    }
+    }
+}
 }
