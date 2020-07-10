@@ -5,7 +5,7 @@ console.log(`Welcome, ${katzDeliLine[katzDeliLine.length]}. You are number ${kat
 }
 
 var nowServing= katzDeliLine =>{
-if(katzDeliLine.length=0){
+if(katzDeliLine.length===0){
   console.log(`There is nobody waiting to be served!`);
 }
 else{
