@@ -1,7 +1,7 @@
 var takeANumber = (katzDeliLine,customerName) =>{
 if(katzDeliLine.length===0)katzDeliLine[0]=customerName;
 else katzDeliLine.push(customerName);
-console.log(`Welcome, ${katzDeliLine[katzDeliLine.length]}. You are number ${katzDeliLine.length + 1} in line.`);
+console.log(`Welcome, ${katzDeliLine[katzDeliLine.length-1]}. You are number ${katzDeliLine.length} in line.`);
 }
 
 var nowServing= katzDeliLine =>{
