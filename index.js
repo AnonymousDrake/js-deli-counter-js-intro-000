@@ -25,7 +25,7 @@ var currentLine= katzDeliLine =>{
   else {
     for(let i=0;i<katzDeliLine.length;i+=1){
       if(i===(katzDeliLine.length - 1)){
-        return `${i+1}. ${katzDeliLine[i]}.`
+        return `${i+1}. ${katzDeliLine[i]}`
       }
       else{
         `${i+1}. ${katzDeliLine[i]}, `
