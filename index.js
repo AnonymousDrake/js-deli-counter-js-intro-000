@@ -23,7 +23,7 @@ var currentLine= katzDeliLine =>{
     return `The line is currently empty.`;
   }
   else {
-    window.print(`The line is currently: `);
+    window.print("The line is currently: ");
 
   }
 }
