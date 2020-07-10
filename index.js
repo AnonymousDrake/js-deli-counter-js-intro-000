@@ -23,6 +23,15 @@ var currentLine= katzDeliLine =>{
     return `The line is currently empty.`;
   }
   else {
-    return `The line is currently: 1. ${katzDeliLine[0]}, 2. ${katzDeliLine[1]}, 3. ${katzDeliLine[2]}`
+    var str="";
+    for(let i=0;i<katzDeliLine.length;i+=1){
+      if(i===(katzDeliLine.length-1)){
+        str+=`${i+1}. ${katzDeliLine[i]}`
+      }
+      else{
+        str+=`${i+1}. ${katzDeliLine[i]},`
+      }
+    }
+    return `The line is currently: 1. ${str}`
   }
 }
