@@ -14,6 +14,7 @@ if(katzDeliLine.length===0){
 }
 else{
   return`Currently serving ${katzDeliLine[0]}.`;
+  katzDeliLine.shift();
 }
 }
 
