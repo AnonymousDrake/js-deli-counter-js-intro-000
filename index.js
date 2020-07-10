@@ -19,16 +19,16 @@ else{
 
 var currentLine= katzDeliLine =>{
   if(katzDeliLine.length===0){
-    console.log(`The line is currently empty.`);
+    return `The line is currently empty.`;
   }
   else {
-    console.log(`The line is currently: `)
+    return `The line is currently: `;
     for(let i=0;i<katzDeliLine.length;i+=1){
     if(i===katzDeliLine.length-1){
-      console.log(`${i+1}. ${katzDeliLine[i]}.`)
+      return `${i+1}. ${katzDeliLine[i]}.`;
     }
     else {
-      console.log(`${i+1}. ${katzDeliLine[i]},`)
+      return `${i+1}. ${katzDeliLine[i]},`;
     }
     }
 }
